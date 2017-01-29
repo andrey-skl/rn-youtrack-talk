@@ -73,16 +73,46 @@ background-image: url(images/spooky.jpg)
 [TODO]: подобрать хорошую историю из практики.
 
 ---
+# Тестирование
 
-## Вывод: когда стоит рассматривать React Native?
+- Всё то же самое
+- Mocha, chai, sinon
+- Enzyme для shallow-render
+- e2e тестирование так же доступно
 
---
+---
+# Тестирование
+
+```js 
+it('should render strong text with stars syntax', () => {
+    const wrapper = shallow(<Wiki>{`*foo text*`}</Wiki>);
+    const boldNode = wrapper.find({testID: 'strong'});
+
+    boldNode.prop('style').fontWeight.should.equal('bold');
+});
+```
+
+```js
+it('should connect to youtrack', () => {
+    const connectButton = wrapper.find(TouchableOpacity);
+    connectButton.simulate('press');
+
+    connectToYouTrack.should.have.been.calledWith(serverUrl);
+});
+```
+---
+## Вывод
+
+- React Native - это весело
+- С ним можно работать и создавать приложения production-уровня
+- Все проблемы преодолимы
+
+---
+
+## Когда стоит рассматривать React Native?
+
 - Простое приложение без сложной логики и UI
-
---
 - Возможностей WEB уже не хватает, но нативное API необходимо по-минимуму
-
---
 - Есть **приличный** опыт JS/React/etc
 
 ---
