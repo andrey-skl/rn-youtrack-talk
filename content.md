@@ -15,7 +15,7 @@ class: center, middle
 - Немного воды про React Native
 - Как я делал YouTrack Mobile
 - Что у меня из этого вышло
-- А можно сразу на обе платформы?
+- Кроссплатформенность
 - Вывод
 
 ---
@@ -64,7 +64,7 @@ class: center, middle
 
 ---
 # Попробуйте сами!
-### AppStore/Google Play: "YouTrack" 
+### AppStore/Google Play: «YouTrack»
 ### ytm-test.myjetbrains.com
 ### PiterJS/PiterJS
 
@@ -100,8 +100,57 @@ it('should connect to youtrack', () => {
     connectToYouTrack.should.have.been.calledWith(serverUrl);
 });
 ```
+
 ---
-## Вывод
+## А можно под обе платформы?
+
+--
+### Learn once, write anywhere ©
+
+--
+- С YouTrack Mobile удалось сохранить единую кодовую базу
+- Очень мало плафтмормозависимых мест в коде
+- Очень много мелочей, которые работают по-разному
+- В среднем, React Native на Android работает хуже и медленнее
+
+---
+## Платформозависимость
+
+```js
+  monospace: {
+    fontSize: FONT_SIZE,
+    ...Platform.select({
+      ios: {
+        fontFamily: 'Courier New'
+      },
+      android: {
+        fontFamily: 'Droid Sans Mono'
+      }
+    })
+  },
+```
+
+```js
+{Platform.OS == 'ios' && <KeyboardSpacer/>}
+```
+
+```js
+if (Platform.OS === 'ios') {
+    Router.AttachmentPreview({url, name});
+} else {
+    Linking.openURL(url);
+}
+```
+
+---
+# У всего есть своя цена
+
+- UI не всегда соотвутствует принятому в платформе
+- Отсутствует Material Design
+- Всё приходится проверять дважды
+
+---
+# Вывод
 
 - React Native - это весело
 - С ним можно работать и создавать приложения production-уровня
@@ -109,7 +158,7 @@ it('should connect to youtrack', () => {
 
 ---
 
-## Когда стоит рассматривать React Native?
+# Cтоит ли рассматривать React Native?
 
 - Простое приложение без сложной логики и UI
 - Возможностей WEB уже не хватает, но нативное API необходимо по-минимуму
