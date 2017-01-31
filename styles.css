@@ -12,7 +12,7 @@ h1, h2, h3 {
   margin-bottom: 0;
 }
 
-img {
+img.full-width {
   width: 100%;
   padding: 16px;
 }
@@ -111,7 +111,7 @@ code {
 
 .left-column {
   color: #777;
-  width: 20%;
+  width: 40%;
   height: 92%;
   float: left;
 }
@@ -121,7 +121,7 @@ code {
 }
 
 .right-column {
-  width: 75%;
+  width: 50%;
   float: right;
   padding-top: 1em;
 }
@@ -130,6 +130,15 @@ ul li {
   line-height: 1.6em;
 }
 
-.iphones-image {
+.wide-image img {
+  width: 100%;
+}
 
+.tall-image {
+  display: inline-block;
+  height: 19em;
+}
+
+.tall-image img {
+  height: 100%;
 }

@@ -31,8 +31,7 @@ class: center, middle
 ---
 # Как это работает?
 
-![](images/rn-flow.png)
-
+.wide-image[![](images/rn-flow.png)]
 
 ---
 # Почему не Native?
@@ -52,7 +51,7 @@ class: center, middle
 ---
 # YouTrack Mobile
 
-.iphones-image[![](images/yt-mobile-iphones.png)]
+.wide-image[![](images/yt-mobile-iphones.png)]
 
 ---
 # Краткая история
@@ -70,7 +69,20 @@ class: center, middle
 
 ---
 background-image: url(images/spooky.jpg)
-[TODO]: подобрать хорошую историю из практики.
+
+---
+### Upgrade
+
+.wide-image[![](images/project-diff.png)]
+
+---
+.left-column[
+  .tall-image[![](images/errors.png)]  
+]
+
+.right-column[
+  ### Upgrade
+]
 
 ---
 # Тестирование
