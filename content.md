@@ -60,7 +60,7 @@ class: center, middle
 ---
 # YouTrack Mobile
 
-.wide-image[![](images/yt-mobile-iphones.png)]
+.wide-image.youtrack-mobile-image[![](images/yt-mobile-iphones.png)]
 
 ---
 # Краткая история

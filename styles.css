@@ -142,3 +142,32 @@ ul li {
 .tall-image img {
   height: 100%;
 }
+
+@keyframes hide {
+  to {
+    font-size: 0;
+    margin: 0;
+  }
+}
+
+@keyframes showimage {
+  to {
+    width: 50%;
+  }
+}
+
+.remark-visible #youtrack-mobile {
+  animation: hide;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.remark-visible .youtrack-mobile-image img {
+  animation: showimage;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
