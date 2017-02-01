@@ -23,10 +23,14 @@ class: center, middle
 
 Фреймворк для создания нативных приложений с использованием технологического стэка React-а:
 - JavaScript
+- React
 - JSX
 - Virtual DOM
-- Flow
 - Flux
+
+---
+
+.wide-image[![](images/trends.png)]
 
 ---
 # Как это работает?
@@ -34,19 +38,24 @@ class: center, middle
 .wide-image[![](images/rn-flow.png)]
 
 ---
-# Почему не Native?
 
-
-- Разрабатывать нативные приложения долго и сложно.
+# Почему React Native?
+- React и инфраструктура
 --
 
-- А значит – дорого.
+- Скорость и стоимость разработки
 --
 
-- Ещё сложнее поддержать обе актуальные платформы.
-
---
 - Там есть Live Reload, Hot Update и куча модных слов.
+--
+
+- Мультиплатформенность
+--
+
+- Любой текстовый редактор
+--
+
+- Сообщество
 
 ---
 # YouTrack Mobile
@@ -71,7 +80,6 @@ class: center, middle
 background-image: url(images/spooky.jpg)
 
 ---
-### Upgrade
 
 .wide-image[![](images/project-diff.png)]
 
@@ -165,6 +173,7 @@ if (Platform.OS === 'ios') {
 # Вывод
 
 - React Native - это весело
+- React в президенты
 - С ним можно работать и создавать приложения production-уровня
 - Все проблемы преодолимы
 
