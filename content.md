@@ -123,11 +123,27 @@ it('should connect to youtrack', () => {
 
 ---
 # Flux/Redux/Reflux/Mobx
+--
 
 ### Нет.
 --
 
 ### А надо бы.
+
+---
+# Flow
+
+--
+
+```js
+type Props = {
+  style?: any,
+  query: string,
+  caret: number,
+  getSuggestions: (query: string, caret: number) => Promise<Array<ServersideSuggestion>>,
+  onApplySuggestion: (newQuery: string) => any
+};
+```
 
 ---
 ## А можно под обе платформы?
