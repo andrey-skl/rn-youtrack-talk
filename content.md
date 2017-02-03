@@ -122,6 +122,14 @@ it('should connect to youtrack', () => {
 ```
 
 ---
+# Flux/Redux/Reflux/Mobx
+
+### Нет.
+--
+
+### А надо бы.
+
+---
 ## А можно под обе платформы?
 
 --
