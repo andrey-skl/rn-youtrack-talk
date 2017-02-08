@@ -35,7 +35,7 @@ class: center, middle
 ---
 # Как это работает?
 
-.wide-image[![](images/rn-flow.png)]
+.wide-image[![](images/rn-work-flow.png)]
 
 ---
 
