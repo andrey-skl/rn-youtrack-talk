@@ -84,7 +84,7 @@ background-image: url(images/spooky.jpg)
 
 ---
 
-.wide-image[![](images/project-diff.png)]
+.wide-image.shift-image[![](images/project-diff.png)]
 
 ---
 .left-column[

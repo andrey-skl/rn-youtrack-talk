@@ -136,6 +136,11 @@ ul li {
   width: 100%;
 }
 
+.shift-image img {
+  position: relative;
+  top: -1em;
+}
+
 .tall-image {
   display: inline-block;
   height: 19em;
