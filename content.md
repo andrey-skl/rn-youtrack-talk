@@ -53,6 +53,7 @@ class: center, middle
 --
 
 - Любой текстовый редактор
+.appear-dissapear-image[![](images/webstorm.png)]
 --
 
 - Сообщество
