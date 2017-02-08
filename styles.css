@@ -30,6 +30,7 @@ img.full-width {
 }
 
 .remark-slide-content {
+  background-position-y: top;
   font-size: 30px;
   background-size: contain;
 }

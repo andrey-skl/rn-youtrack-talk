@@ -79,6 +79,9 @@ class: center, middle
 ---
 background-image: url(images/spooky.jpg)
 
+--
+.tall-image[![](images/agile-board-proto.png)]
+
 ---
 
 .wide-image[![](images/project-diff.png)]
